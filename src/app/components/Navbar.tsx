@@ -168,24 +168,24 @@ const Navbar = () => {
             >
               Find a Store
             </a>
-            <a
-              href="#"
+            <Link
+              href="/contact_us"
               className="block text-[14px] font-medium hover:underline"
             >
               Help
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/join_us"
               className="block text-[14px] font-medium hover:underline"
             >
               Join Us
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/login"
               className="block text-[14px] font-medium hover:underline"
             >
               Sign In
-            </a>
+            </Link>
           </div>
         </div>
       )}
